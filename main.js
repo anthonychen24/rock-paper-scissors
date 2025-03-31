@@ -14,7 +14,5 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     let humanChoice = prompt('Enter rock paper or scissors','');
-    let humanChoiceCaseSens = humanChoice.toLowerCase()
-    return humanChoiceCaseSens;
+    return humanChoice;
 }
-
