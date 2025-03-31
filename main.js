@@ -1,5 +1,3 @@
-console.log('Hello World!')
-
 function getComputerChoice() {
     let random = Math.floor(Math.random() * 3);
     if (random === 0) {
@@ -10,3 +8,8 @@ function getComputerChoice() {
         return 'scissors';
     }
 };
+
+function getHumanChoice() {
+    let humanChoice = prompt('Enter rock paper or scissors','');
+    return humanChoice;
+}
