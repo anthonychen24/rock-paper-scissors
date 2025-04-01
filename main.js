@@ -40,7 +40,11 @@ function playGame() {
     
     if (humanScore > computerScore){
         console.log('You won best out of 5 rounds!');
-    }else {
+
+    } else if (humanScore === computerScore) {
+        console.log('It\'s a draw. Try again! ')
+    }
+    else {
         console.log('You lost best out of 5 rounds.');
     }
 }
